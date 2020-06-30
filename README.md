@@ -1,2 +1,2 @@
-# RSA
-RSA
+# ECC
+ECC_FUNS
