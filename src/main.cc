@@ -5,7 +5,7 @@
 #include <string>
 #include <list>
 //user head file
-#include <ECC.h>
+#include <RSA.h>
 //user macro 
 #define KEYFILE  "data/key.txt"
 #define INPUTFILE  "data/input.txt"

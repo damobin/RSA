@@ -3,7 +3,7 @@ CC = g++
 #<<file type
 TYPE=cc
 #<<out bin
-TARGET = DES
+TARGET = RSA
 #<<out directory
 OUTDIR = ./bin
 
@@ -50,6 +50,6 @@ $(TARGET):$(OBJS)
 
 .PHONY:clean
 clean:
-	rm -rf $(OBJ) $(OUTDIR)/$(TARGET)
+	rm -rf $(OBJ) $(OUTDIR)/*
 
 
